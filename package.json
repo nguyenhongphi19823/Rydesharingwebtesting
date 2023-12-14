@@ -1,0 +1,21 @@
+{
+  "name": "web_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "electron": "cypress run",
+    "chrome": "cypress run --browser chrome",
+    "edge": "cypress run --browser edge",
+    "electron-headed": "cypress run --headed",
+    "chrome-headed": "cypress run --browser chrome --headed",
+    "edge-headed": "cypress run --browser edge --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1"
+  }
+}
